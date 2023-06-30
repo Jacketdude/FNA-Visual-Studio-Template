@@ -1,0 +1,29 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>FNA23</Name>
+    <Description>This is the project template for making Games for the FNA Framework on Windows. FNA is based off of the XNA Framework 4.0, XNA has been discontinued for many years and FNA is here to replace XNA.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>FNA23</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="FNA23.csproj" File="FNA23.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FAudio.dll">FAudio.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FNA.dll">FNA.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FNA3D.dll">FNA3D.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Game1.cs">Game1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="libtheorafile.dll">libtheorafile.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL2.dll">SDL2.dll</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
